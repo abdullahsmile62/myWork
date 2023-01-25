@@ -1,0 +1,7 @@
+div {
+/* color: green; */
+text-align: center;
+text-decoration: blue;
+font-size: 50px;
+text-shadow : 1.5px  1.5px red , 3px 3px blue , 4.5px 4.5px purple
+}

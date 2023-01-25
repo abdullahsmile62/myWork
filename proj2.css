@@ -1,0 +1,12 @@
+p{
+    text-align: center;
+}
+p.one{
+    text-transform : uppercase 
+}
+p.two{
+    text-transform : capitalize 
+}
+p.three{
+    text-transform : lowercase 
+}

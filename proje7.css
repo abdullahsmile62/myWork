@@ -1,0 +1,15 @@
+html{
+    font-size: 20px ;
+}
+.div1{
+    font-size: 2.5rem;
+}
+.div2{
+    font-size: 2rem;
+}
+.div3{
+    font-size: 1.5rem;
+}
+.div1,.div2,.div3{ 
+    text-align: center;
+}

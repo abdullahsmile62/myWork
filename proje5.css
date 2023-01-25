@@ -1,0 +1,38 @@
+.div1{
+width: 400px;
+text-align:center;
+margin: auto auto;
+border: solid orange 2px ;
+text-transform:capitalize;
+font-family: Arial, Helvetica, sans-serif;
+padding: 15px;
+
+}
+.div1 p{
+    
+    background-color: #eee;
+    border: inherit;
+    width: 90%;
+    margin: 0 auto;
+    padding: inherit;
+    
+}
+.div2{
+    width: 400px;
+    text-align:center;
+    margin: 10px auto;
+    border: solid green 2px ;
+    text-transform:capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    
+    }
+    .div2 p{
+        
+        background-color: #eee;
+        border: inherit;
+        width: 90%;
+        margin: 0 auto;
+        padding: inherit;
+        
+    }

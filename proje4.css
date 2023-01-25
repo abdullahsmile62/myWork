@@ -1,0 +1,17 @@
+a{
+    background-color: rgb(4, 174, 180);
+    color:white;
+    margin: 2px auto;
+    width: 75px;
+    height: 25px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none ;
+    border-bottom: solid 4px rgb(1, 70, 55);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}

@@ -1,0 +1,60 @@
+.perant{ 
+    background-color: #eee ;
+    width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    
+}
+
+.full div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: gray;
+    width :calc(( 100% - 30px ) /1);
+    float:left;
+   margin-left: 15px;
+   margin-top: 15px;
+    
+    
+}
+.perant .one div{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: gray;
+    width :calc(( 100% -  60px ) /3);
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    
+    
+}
+.perant .two div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: gray;
+    width :calc(( 100% - 45px ) /2);
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    
+    
+}
+.perant .three div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: gray;
+    width :calc(( 100% - 75px )/4);
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.clear{
+    clear: both;
+}

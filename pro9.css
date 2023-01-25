@@ -1,0 +1,42 @@
+p{
+    width: 350px;
+    background-color: #eee;
+    height: 30px;
+    margin: 10px auto;
+    /* text-align: center; */
+    line-height: 30px;
+    /* font-size: 10px; */
+    border-left: #f12c78 solid 2px ;
+    position: relative;
+}
+
+
+
+
+p::before{
+
+    content: attr(data-person);
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    background-color: #eee;
+    margin-left: -61px;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 25px;
+    
+}
+p::after{
+
+    content:"";
+    width: 0px;
+    height: 0px;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #f12c78;
+    position:absolute;
+    left: -3%;
+    top:15%;
+
+}
+
