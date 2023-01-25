@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Define variables for the calculator
+let num1 = 0;
+let num2 = 0;
+let result = 0;
+let operator = "";
+
+// Define a function to update the result
+function updateResult() {
+  switch (operator) {
+    case "+":
+      result = num1 + num2;
+      break;
+    case "-":
+      result = num1 - num2;
+      break;
+    case "*":
+      result = num1 * num2;
+      break;
+    case "/":
+      result = num1 / num2;
+      break;
+    default:
+      result = "Invalid operator";
+  }
+}
+
+// Define a function to handle the input of numbers and operators
+function handleInput(input) {
+  // Check if the input is a number
+  if (!isNaN(input)) {
+    // If num1 is empty, set num1 to the input
+    if (num1 == 0) {
+      num1 = input;
+    } else {
+      // If num1 is not empty, set num2 to the input
+      num2 = input;
+    }
+  } else {
+    // If the input is not a number, it must be an operator
+    operator = input;
+  }
+}
+
+// Define a function to clear the calculator
+function clear() {
+  num1 = 0;
+  num2 = 0;
+  result = 0;
+  operator = "";
+}
+
+// Define a function to print the result to the screen
+function printResult() {
+  console.log(result);
+}
+handleInput(5);
+handleInput(5);
+handleInput("*");
+updateResult()
+printResult() 
+clear()
+handleInput(6);
+handleInput(2);
+handleInput("/");
+updateResult()
+printResult() 
+clear()
+handleInput(4);
+handleInput(2);
+handleInput("/");
+updateResult()
+printResult() 
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function calculate(firstNum , secondNum , op){
+            if(firstNum!=null && secondNum!=null && (op == "add" || op == null) ){
+                result=firstNum+secondNum;
+                console.log(result);
+            }
+            else if(firstNum!=null && secondNum!=null && op == "sub"){
+                result=firstNum-secondNum;
+                console.log(result);
+            }
+            else if(firstNum!=null && secondNum!=null && op == "mul"){
+                result=firstNum*secondNum;
+                console.log(result);
+            }
+            else if (firstNum!=null && secondNum==null ) {
+                console.log(`Second Number Not Found`); 
+            }
+        }
+
+
+    calculate(20); // Second Number Not Found
+calculate(20, 30); // 50
+calculate(20, 30, "add"); // 50
+calculate(20, 30, 'sub'); // -10
+calculate(20, 30, 'mul'); // 600
+    </script>
+</body>
+</html>

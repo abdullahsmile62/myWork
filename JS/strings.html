@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let userName = "Elzero";
+console.log(userName[0].toLowerCase()); // e
+console.log(userName.charAt(0).toLowerCase()); // e
+console.log(userName[userName.indexOf("E")].toLowerCase()); // e
+console.log(userName.slice(0,1).toLowerCase()); // e
+console.log(userName.slice(-6 , -5).toLowerCase()); // e
+console.log(userName[0].toLowerCase().repeat(3)); // eee
+
+let word = "Elzero";
+let letterZ = "z";
+let letterE = "e";
+let letterO = "O";
+
+console.log(word.includes(letterZ));
+console.log(word.startsWith(letterE.toUpperCase()));
+console.log(word.endsWith(letterO.toLowerCase()));
+
+let a = 100;
+let b = 2_00.5;
+let c = 1e2;
+let d = 2.4;
+
+console.log(Number.parseInt(Math.min(a,b,c,d))); // 2
+console.log(a**Number.parseInt(d)); // 1000
+console.log(Number.parseInt(d)); // 2
+console.log(Math.floor(d)); // 2
+console.log(d.toFixed(0)); // 2
+console.log(Math.trunc(d)); // 2
+// Use Variables b + d To Get This Valus
+console.log((Math.floor(b)/Math.ceil(d)).toFixed(2)); // 66.67 => String
+console.log(Number.parseInt(Math.floor(b)/Math.ceil(d))); // 67 => Number
+    </script>
+</body>
+</html>
