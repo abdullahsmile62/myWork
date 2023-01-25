@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "html",
+			"path": "..\\html"
+		},
+		{
+			"name": "js",
+			"path": "..\\js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "js"
+	}
+}

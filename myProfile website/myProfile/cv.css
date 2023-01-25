@@ -1,0 +1,146 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #fcf9f9;
+  background-color: #6b6b6b;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 249, 249);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+  color: black;
+}
+
+li a.active {
+  color: white;
+  background-color: #5d5f5e;
+}
+.container{
+     position: relative;
+     display: block;
+     width:100%;
+     left: 50px;
+     right: 50px;
+     margin-top: 10px;
+}
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .social{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  .abd{
+      font-size: 50px;
+  }
+  .front{
+    font-size: 35px;
+}
+  .img2{
+
+    position: absolute;
+    display: block;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    top: 25%;
+    left: 50%;
+    width: 20%;
+    height: 40%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 10px;
+    width: 20%;
+    height: 20%;
+  }
+  .grid-container > div {
+    background-color: rgba(65, 60, 60, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .grid-item2 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    line-height: 4;
+  }
+  .grid-item7 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  .divcon{
+    width: 100%;
+  }
+  .left{
+    width:50%;
+    float: left;
+    margin-left: 50px;
+  }
+  .right{
+    margin-left: 56%;
+    padding-top: 1px;
+  }
+ 
